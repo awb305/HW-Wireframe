@@ -1,0 +1,72 @@
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    padding: 19px 0px;
+}
+
+.left-section {
+    margin: 0px 0px 28px px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    height: 150px;
+    padding: 5px;
+    margin: 30px 8px 8px 8px;
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    color: #ebebeb;
+    background-color: #777;
+    margin: 10px 10px 20px 10px;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    padding: 7px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.middle {
+    margin-top: 10px;
+}
+
+section {
+    width: 495px;
+    float: left;
+    height: 225px;
+    margin-right: 10px;
+    
+}
+
+aside {
+    float: right;
+    width: 450px;
+    height: 225px;
+
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* I need to look up alternatives to px it was annoying adusting all of them, however I did figure out you can export what I did in Chrome Tools. Also the inheritance threw me off a little bit.  */
